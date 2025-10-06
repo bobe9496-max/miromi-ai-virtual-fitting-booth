@@ -1,0 +1,11 @@
+# 프로젝트 폴더로 이동
+cd C:\Users\bobe9\Documents\GitHub\miromi-faceswap-clothes
+
+# 가상환경 생성
+py -3.11 -m venv .venv
+
+# 활성화
+.\.venv\Scripts\Activate.ps1
+
+# 실행
+python -m streamlit run app.py
