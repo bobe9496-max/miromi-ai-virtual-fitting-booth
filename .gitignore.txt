@@ -1,0 +1,16 @@
+# --- Virtual env & cache ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Temporary & generated files ---
+uploads/
+outputs/
+noise_videos/
+overlays/
+
+# --- Logs & system ---
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
